@@ -47,7 +47,6 @@ function Header() {
                     </div>
                 </div>
             </div>
-
             <div className="imgdiv3">
                 <img src="/images/goldHand.png"alt="alt"/>
             </div>
