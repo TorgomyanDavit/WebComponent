@@ -5,13 +5,13 @@ function Header() {
     return (
         <header className="header">
             <div className="Div1">
-                <a href="#"><img src={logo} id="Link"/></a>
+                <a href="www"><img src={logo} id="Link" alt="alt"/></a>
                 <h1>Rachat {"&"} Vente Or <br/>à Cagnes-sur-Mer</h1>
                 <p>Bijoux, lingots, pièces <br/>et tout objet en or</p>
             </div>
 
             <div className="Div2childDiv1">
-                <a href="tel:04 65 84 07 08" className="Link2"><img src="/images/call.png"/></a>
+                <a href="tel:04 65 84 07 08" className="Link2"><img src="/images/call.png" alt="alt"/></a>
                 <p><a href="tel:04 65 84 07 08" className="Link3">04 65 84 07 08</a><br/>Appel non surtaxé</p>
             </div>
 
@@ -49,7 +49,7 @@ function Header() {
             </div>
 
             <div className="imgdiv3">
-                <img src="/images/goldHand.png"/>
+                <img src="/images/goldHand.png"alt="alt"/>
             </div>
         </header>
     )

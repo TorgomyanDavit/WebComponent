@@ -5,7 +5,7 @@ function Footer() {
         <footer className="footer">
             <div className="footerdiv">
                 <h2>Achat or Cagnes-sur-Mer</h2>
-                <p>
+                <p id="footerp">
                     Depuis 2019 l’agence FRANCE D’OR est installée à Cagnes-sur-Mer, près de la place de Général de Gaulle, dans un bureau sécurisé et à l’abri de regard.
                     Nous sommes spécialisés dans l’achat et vente d’or, d’argent, platine et palladium.
                     Nous achetons l’or sous toutes ses formes: bijoux, pièces, lingotins et lingots, débris, or dentaires etc. 
@@ -25,6 +25,7 @@ function Footer() {
                     Nos conseillers sont à votre écoute. 
                 </p>
             </div>
+            
             <div className="footertext">
                     <span>© 2019-2021 France d’or - Gold {"&"} Diamant Company. Tous droits réservés.</span>
                     <span>Création de Site Web Webstart Digital Agency</span>

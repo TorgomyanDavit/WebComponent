@@ -27,8 +27,7 @@ function Section2() {
                             <span>1 gr</span>
                             <span>5000 gr.</span>
                         </p>
-                        <input type="button" value="Estimez votre d’Or" className="button"/>
-
+                        <p className="buttonp"><input type="button" value="Estimez votre d’Or" className="button"/></p>                   
                         <p id="p3">
                             *Нажимая на кнопку, вы даете согласие 
                             на обработку персональных данных и 
@@ -38,12 +37,12 @@ function Section2() {
                 </div>
 
             <div className="chequeDiv">
-                <p><img src="/images/cheque1.png"/><span>Par chèque ou par virement</span></p>
-                <p><img src="/images/cheque2.png"/><span>La présence de votre carted identité est obliagatoire</span></p>
+                <p><img src="/images/cheque2.png" className="imgpassport" alt="alt"/><span>La présence de votre carted identité est obliagatoire</span></p>
+                <p><img src="/images/cheque1.png" className="imgpassport" alt="alt"/><span>Par chèque ou par virement</span></p>
             </div>
-
+ 
             <div className="goldDiv">
-                <img src="/images/gold.png"/>
+                <img src="/images/golden.png" alt="alt" id="golden"/>
             </div>
         </section>
     )

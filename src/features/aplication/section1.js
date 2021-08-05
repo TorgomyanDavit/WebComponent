@@ -10,14 +10,17 @@ function Section1() {
                 <span>Vendez votre or en </span>
                 <span>3 étapes simples</span>
             </p>
+
             <div className="Section1child1">
-                {state.mainSec1.map((val) => {
+                {state.mainSec1.map((val,i) => {
                     return (
-                    <p key={val.id} className="childParagraf">
-                        <img src={val.img}/>
-                        <span>{val.text1}</span>
-                        <span>{val.text2}</span>
-                    </p>
+                    <div key={val.id} className="childParagraf">
+                        <img src={val.img} id="images" alt="alt"/>
+                        <p id="paragraff">
+                            <span id="id1">{val.text1}</span>
+                            <span id={"id2" + i} >{val.text2}</span>
+                        </p>
+                    </div>
                     )
                 })}
             </div>
